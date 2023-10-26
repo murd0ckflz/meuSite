@@ -1,0 +1,11 @@
+body {
+    background-image: url('wpp.jpg'); 
+    background-size: cover; /* ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* evita a repetição da imagem */
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* adiciona um fundo semi-transparente para melhorar a legibilidade do conteúdo */
+}

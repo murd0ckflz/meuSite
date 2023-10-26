@@ -1,0 +1,27 @@
+<!DOCTYPE html5>
+<html lan="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device=width, initial-scale=1.
+    0">
+    <title> Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Entre em contato comigo. </h1>
+    <form action="mailto:" method="POST" enctype="text/plain"> <!-- Basta adicionar o email em mailto que o codigo se torna funcional -->
+        Seu Nome:<br/>
+        <input name="nome" type="text" required /><br/>
+        Seu Email:<br/>
+        <input name="email" type="email" required /><br/>           <!--Aqui coloco os inputs. Utilizo rows para aumentar o tamanho da caixa de mensagem-->
+        Sua Mensagem:<br/>
+        <textarea name="mensagem" rows="5" required></textarea><br/>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Limpar"/>
+    </form>
+
+    <a  href="index.html"> Voltar para a página principal .</a>   <!-- Referenciando a pagina principal. -->
+</body>
+</html>
